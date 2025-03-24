@@ -23,7 +23,7 @@ require (
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241210054802-24370beab758
 	sigs.k8s.io/controller-runtime v0.20.3
-	sigs.k8s.io/kueue v0.11.0
+	sigs.k8s.io/kueue v0.10.1
 	sigs.k8s.io/yaml v1.4.0
 )
 
@@ -36,8 +36,6 @@ replace k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.31.2
 replace k8s.io/apimachinery v0.32.3 => k8s.io/apimachinery v0.31.4
 
 replace sigs.k8s.io/controller-runtime v0.20.3 => sigs.k8s.io/controller-runtime v0.19.3
-
-replace sigs.k8s.io/kueue v0.11.0 => sigs.k8s.io/kueue v0.10.1
 
 replace sigs.k8s.io/custom-metrics-apiserver => sigs.k8s.io/custom-metrics-apiserver v1.25.1-0.20230306170449-63d8c93851f3
 
